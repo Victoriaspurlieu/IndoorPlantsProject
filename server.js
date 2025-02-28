@@ -14,7 +14,7 @@ const routes = require("./routes");
 const user = require('./routes/api/user')
 
 //set Express connection
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 // Define middleware here
